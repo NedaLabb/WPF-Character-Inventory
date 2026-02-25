@@ -1,0 +1,167 @@
+[
+    {
+        "CharacterImage": "/Assets/Characters/char_walk_left.gif",
+        "Name": "Maru",
+        "Role": "Farmer",
+        "Description": "A hard working farmer that loves crops and animals.",
+        "Health": 110,
+        "Strength": 15,
+        "Stamina": 75,
+        "MagicDefense": 12,
+        "Inventory": [
+            {
+                "Id": 1,
+                "Name": "Iron Sword",
+                "Type": 0,
+                "Count": 1,
+                "BonusHealth": 0,
+                "BonusStrength": 10,
+                "BonusStamina": 0,
+                "BonusMagicDefense": 0,
+                "Description": "A sturdy sword made of iron.",
+                "ItemImagePath": "/Assets/Weapons/sword_01.png"
+            },
+            {
+                "Id": 2,
+                "Name": "Meat",
+                "Type": 7,
+                "Count": 2,
+                "BonusHealth": 20,
+                "BonusStrength": 0,
+                "BonusStamina": 5,
+                "BonusMagicDefense": 0,
+                "Description": "A fresh piece of meat, cooked and ready to eat.",
+                "ItemImagePath": "/Assets/Food/meat.png"
+            },
+            {
+                "Id": 3,
+                "Name": "Fish",
+                "Type": 7,
+                "Count": 2,
+                "BonusHealth": 15,
+                "BonusStrength": 0,
+                "BonusStamina": 2,
+                "BonusMagicDefense": 0,
+                "Description": "Freshly caught fish.",
+                "ItemImagePath": "/Assets/Food/fish_a.png"
+            },
+            {
+                "Id": 4,
+                "Name": "Cookies",
+                "Type": 7,
+                "Count": 3,
+                "BonusHealth": 10,
+                "BonusStrength": 0,
+                "BonusStamina": 3,
+                "BonusMagicDefense": 0,
+                "Description": "Soft cookies with chocolate chips.",
+                "ItemImagePath": "/Assets/Food/cookies.png"
+            },
+            {
+                "Id": 5,
+                "Name": "Leather boots",
+                "Type": 2,
+                "Count": 1,
+                "BonusHealth": 0,
+                "BonusStrength": 10,
+                "BonusStamina": 10,
+                "BonusMagicDefense": 0,
+                "Description": "Comfortable leather boots to protect your feet.",
+                "ItemImagePath": "/Assets/Armor/leather_boots_01.png"
+            },
+            {
+                "Id": 7,
+                "Name": "Bow",
+                "Type": 0,
+                "Count": 1,
+                "BonusHealth": 0,
+                "BonusStrength": 15,
+                "BonusStamina": 0,
+                "BonusMagicDefense": 0,
+                "Description": "A bow to defend against enemies.",
+                "ItemImagePath": "/Assets/Weapons/bow_01.png"
+            },
+            {
+                "Id": 8,
+                "Name": "Sandwich",
+                "Type": 7,
+                "Count": 1,
+                "BonusHealth": 10,
+                "BonusStrength": 0,
+                "BonusStamina": 2,
+                "BonusMagicDefense": 0,
+                "Description": "Sandwitch made ready to eat.",
+                "ItemImagePath": "/Assets/Food/sandwich.png"
+            },
+            {
+                "Id": 9,
+                "Name": "Necklace",
+                "Type": 5,
+                "Count": 1,
+                "BonusHealth": 5,
+                "BonusStrength": 5,
+                "BonusStamina": 0,
+                "BonusMagicDefense": 15,
+                "Description": "A necklace that gives benefits.",
+                "ItemImagePath": "/Assets/Accessories/necklace_02.png"
+            },
+            {
+                "Id": 10,
+                "Name": "Ring",
+                "Type": 5,
+                "Count": 1,
+                "BonusHealth": 10,
+                "BonusStrength": 10,
+                "BonusStamina": 0,
+                "BonusMagicDefense": 20,
+                "Description": "A ring that gives benefits.",
+                "ItemImagePath": "/Assets/Accessories/ring_02.png"
+            },
+            {
+                "Id": 11,
+                "Name": "Waffles",
+                "Type": 7,
+                "Count": 1,
+                "BonusHealth": 10,
+                "BonusStrength": 0,
+                "BonusStamina": 3,
+                "BonusMagicDefense": 0,
+                "Description": "Freshly baked waffles.",
+                "ItemImagePath": "/Assets/Food/Waffles.png"
+            },
+            {
+                "Id": 12,
+                "Name": "Pants",
+                "Type": 8,
+                "Count": 1,
+                "BonusHealth": 0,
+                "BonusStrength": 5,
+                "BonusStamina": 0,
+                "BonusMagicDefense": 0,
+                "Description": "Pants to protect your legs.",
+                "ItemImagePath": "/Assets/Armor/armor_021.png"
+            },
+            {
+                "Id": 13,
+                "Name": "Shirt",
+                "Type": 1,
+                "Count": 1,
+                "BonusHealth": 0,
+                "BonusStrength": 5,
+                "BonusStamina": 0,
+                "BonusMagicDefense": 0,
+                "Description": "A shirt to protect your torso.",
+                "ItemImagePath": "/Assets/Armor/armor_013.png"
+            }
+        ],
+        "HeadSlot": null,
+        "TorsoSlot": null,
+        "LeftHand": null,
+        "RightHand": null,
+        "BootSlot": null,
+        "AccessorySlot1": null,
+        "AccessorySlot2": null
+    }
+
+
+]

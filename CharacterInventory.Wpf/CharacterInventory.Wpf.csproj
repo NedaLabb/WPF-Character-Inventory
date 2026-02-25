@@ -1,0 +1,85 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Accessories\necklace_02.png" />
+    <None Remove="Assets\Accessories\ring_02.png" />
+    <None Remove="Assets\Armor\armor_013.png" />
+    <None Remove="Assets\Armor\armor_021.png" />
+    <None Remove="Assets\Armor\leather_boots_01.png" />
+    <None Remove="Assets\Armor\shield_01.png" />
+    <None Remove="Assets\Characters\char_walk_left.gif" />
+    <None Remove="Assets\Food\cookies.png" />
+    <None Remove="Assets\Food\fish_a.png" />
+    <None Remove="Assets\Food\meat.png" />
+    <None Remove="Assets\Food\sandwich.png" />
+    <None Remove="Assets\Food\Waffles.png" />
+    <None Remove="Assets\Weapons\bow_01.png" />
+    <None Remove="Assets\Weapons\sword_01.png" />
+    <None Remove="Files\Characters.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Files\Characters.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CharacterInventory.core\CharacterInventory.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\Armor\leather_boots_01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Armor\shield_01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <PackageReference Include="WpfAnimatedGif" Version="2.0.2" />
+    <Resource Include="Assets\Accessories\necklace_02.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Accessories\ring_02.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Armor\armor_013.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Armor\armor_021.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Characters\char_walk_left.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Food\cookies.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Food\fish_a.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Food\meat.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Food\sandwich.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Food\Waffles.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Weapons\bow_01.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Weapons\sword_01.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
