@@ -10,7 +10,8 @@ Features:
 Application preview:
 <img width="1918" height="979" alt="Character_inventory" src="https://github.com/user-attachments/assets/171148c0-caf2-4a33-b668-ef26d65c4f69" />
 
-<img width="1919" height="1033" alt="Character_Inventory2" src="https://github.com/user-attachments/assets/20e37d31-5a5f-48b4-9978-d845fef727aa" />
+<img width="1919" height="983" alt="Character_Inventory2" src="https://github.com/user-attachments/assets/8cf6e32c-50f6-4738-8f27-117fc6283c94" />
+
 
 
 
